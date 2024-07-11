@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arithmetic Operations</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="arithmetic.html">Arithmetic</a></li>
+            <li><a href="bitwise.html">Bitwise Operations</a></li>
+            <li><a href="conversion.html">Conversions</a></li>
+            <li><a href="ascii.html">Binary to ASCII</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h1>Binary Arithmetic Operations</h1>
+        <input type="text" id="input1" placeholder="Enter first binary number">
+        <input type="text" id="input2" placeholder="Enter second binary number">
+        <select id="operation">
+            <option value="add">Addition</option>
+            <option value="subtract">Subtraction</option>
+            <option value="multiply">Multiplication</option>
+            <option value="divide">Division</option>
+        </select>
+        <button onclick="calculate()">Calculate</button>
+        <p>Result: <span id="result"></span></p>
+        <button onclick="clearInputs()">Clear</button>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
